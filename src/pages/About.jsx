@@ -13,7 +13,7 @@ const About = () => {
               Hello,
             </Typography>
            <Typography variant='h6' component='div' textAlign='justify' p={2}>
-  I am Ajay Pal, PHP Developer with over 2 years of experience in web development. 
+  I am Ajay Pal, PHP Developer with over two years of experience in web development. 
   I have strong expertise in Core PHP, OOP, Laravel, MySQL, JavaScript, jQuery, 
   and API integrations. Currently, I am pursuing to grow my skills covering backend 
   and database technologies to become a Full Stack Developer.
