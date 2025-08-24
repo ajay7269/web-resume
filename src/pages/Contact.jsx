@@ -43,7 +43,7 @@ const Contact = () => {
         <Link href='https://www.linkedin.com/in/ajay-pal-a068b1218/' target='_blank'>
           <IconButton color='error'><LinkedInIcon sx={{ fontSize: 40 }} /></IconButton>
         </Link>
-        <Link href='#' target='_blank'>
+        <Link href='https://github.com/ajay7269' target='_blank'>
           <IconButton color='error'><GitHubIcon sx={{ fontSize: 40 }} /></IconButton>
         </Link>
       </Stack>
