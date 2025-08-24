@@ -40,7 +40,7 @@ const Contact = () => {
       </Box>
 
       <Stack direction='row' spacing={1} p={3} justifyContent='center'>
-        <Link href='#' target='_blank'>
+        <Link href='https://www.linkedin.com/in/ajay-pal-a068b1218/' target='_blank'>
           <IconButton color='error'><LinkedInIcon sx={{ fontSize: 40 }} /></IconButton>
         </Link>
         <Link href='#' target='_blank'>
