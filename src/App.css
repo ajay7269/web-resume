@@ -1,38 +1,77 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #efefef;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Remove underline from links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Common box shadow for all sections/cards */
+section, .card, .box, .paper {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 1200px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover, .card:hover, .box:hover, .paper:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Typography */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 12px;
+  line-height: 1.6;
+}
+
+/* Responsive Image */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive Layout */
 .App {
-  text-align: center;
+  width: 95%;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Responsive Grid Fix */
+@media (max-width: 900px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Navbar Styling */
+.navbar {
+  background: #0288d1;
   color: white;
+  padding: 12px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Buttons */
+button, .btn {
+  border-radius: 8px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
 }
